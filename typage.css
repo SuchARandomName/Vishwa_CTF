@@ -1,0 +1,106 @@
+#b1
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+@font-face {
+font-family: "Nightmare Codehack";
+src: url("Nightmare Codehack.otf");
+}
+
+@font-face {
+font-family: "new";
+src: url("Aerolite.otf");
+}
+
+@font-face {
+font-family: "cb";
+src: url("CocoBiker.ttf");
+}
+
+.ex2wel
+{
+    text-decoration:inherit;
+    text-decoration-color: blue;
+    font-family: "Nightmare Codehack";
+    color: darkblue;
+    letter-spacing: 10px;
+    font-size: 70px;
+    
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #57fffa, 0 0 30px #57fffa, 0 0 40px #57fffa, 0 0 55px #57fffa, 0 0 75px #57fffa;
+}
+
+.transbox {
+  margin: 30px;
+  background-color: black;
+  border: 5px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.abc {
+    list-style: none;
+    padding-left: 30;
+}
+.abc li {
+    position: relative;
+    padding-left: 50px;
+    color: white;
+    text-decoration:inherit;
+    font-family: "new";
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-shadow: 0 0 5px #57fffa;
+}
+.abc li:before {
+    content: '  ';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sub
+{
+    text-align: center;
+}
+
+.button
+{
+      position: absolute;
+    top: 90%;
+    left: 43%;
+    background-color: black;
+    border: 2px solid #57fffa;
+    color: white;
+    font-size: 30px;
+    box-shadow:  0 0 8px #FFF,0 0 3px #57fffa;
+    padding: 10px 20px;
+    font-family: "cb";
+    text-shadow: 0 0 3px #57fffa;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button:hover
+{
+    background: white;
+    color: black;
+}
+
+#sub
+{
+    color: white;
+    text-shadow:  0 0 3px #57fffa;
+    margin-left: 30px;
+    font-family: "new";
+}
+
+
